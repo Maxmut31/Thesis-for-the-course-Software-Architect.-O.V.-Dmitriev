@@ -24,12 +24,12 @@
 
 ### Архитектурные решения
 - [Анализ архитектурных опций](docs/10-architecture-options.md)
-- [Architecture Decision Matrix](docs/architecture-decision-matrix.md)
+- [Матрица решения выбора](docs/architecture-decision-matrix.md)
 - [ADR](docs/11-adr.md)
 
 ### Архитектура системы
 - [Концептуальная архитектура](docs/12-conceptual-architecture.md)
 
 ### Диаграммы
-- [Context Diagram](diagrams/context-diagram.md)
-- [Container Diagram](diagrams/container-diagram.md)
+- [Контекстная диаграмма системы](diagrams/context-diagram.md)
+- [Диаграмма контейнеров системы](diagrams/container-diagram.md)
