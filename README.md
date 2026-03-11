@@ -29,7 +29,3 @@
 
 ### Архитектура системы
 - [Концептуальная архитектура](docs/12-conceptual-architecture.md)
-
-### Диаграммы
-- [Контекстная диаграмма системы](diagrams/context-diagram.md)
-- [Диаграмма контейнеров системы](diagrams/container-diagram.md)
