@@ -17,3 +17,4 @@
 8. [Атрибуты качества](docs/08-quality-attributes.md)  
 9. [Нефункциональные требования](docs/09-nfr.md)  
 10. [Архитектурные опции и обоснование выбора](docs/10-architecture-options.md)
+11. [ADR](docs/11-adr.md)
