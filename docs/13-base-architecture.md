@@ -168,7 +168,7 @@ API Gateway выполняет следующие задачи:
 - уведомления о комментариях, приглашениях и результатах
 - доставку сервисных уведомлений
 
-### Recommendation / Promo Service
+### Promo Service
 Отвечает за:
 
 - персонализированные рекомендации
@@ -251,6 +251,57 @@ API Gateway выполняет следующие задачи:
 - использование облачной инфраструктуры
 - возможность независимого масштабирования наиболее
   нагруженных компонентов
+
+---
+## Схема базовой архитектуры
+
+Ниже представлена упрощенная схема архитектуры системы.
+
+```mermaid
+flowchart TD
+    U[Пользователь] --> C[Мобильное приложение / Web]
+    C --> G[API Gateway]
+
+    G --> I[Identity Service]
+    G --> W[Workout Service]
+    G --> S[Social Service]
+    G --> F[Feed Service]
+    G --> CH[Challenge Service]
+    G --> N[Notification Service]
+    G --> P[Promo Service]
+    G --> INT[Integration Service]
+
+    INT --> DEV[Фитнес-устройства]
+    INT --> MOB[Apple Health / Google Fit / сенсоры телефона]
+    INT --> ECO[E-commerce и внутренние системы компании]
+
+    I --> DI[(Хранилище Identity)]
+    W --> DW[(Хранилище Workout)]
+    S --> DS[(Хранилище Social)]
+    F --> DF[(Хранилище Feed)]
+    CH --> DC[(Хранилище Challenge)]
+    N --> DN[(Хранилище Notification)]
+    P --> DP[(Хранилище Promo)]
+
+    OBS[Мониторинг / Логирование] -.-> G
+    OBS -.-> I
+    OBS -.-> W
+    OBS -.-> S
+    OBS -.-> F
+    OBS -.-> CH
+    OBS -.-> N
+    OBS -.-> P
+    OBS -.-> INT
+
+    SEC[Безопасность / Контроль доступа] -.-> G
+    SEC -.-> I
+    SEC -.-> W
+    SEC -.-> S
+    SEC -.-> F
+    SEC -.-> CH
+    SEC -.-> N
+    SEC -.-> P
+    SEC -.-> INT
 
 ---
 
