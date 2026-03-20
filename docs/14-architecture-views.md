@@ -11,7 +11,7 @@
 - инфраструктурное
 - представление безопасности
 
-```mermaid
+```
 flowchart LR
     Client --> Gateway
     Gateway --> Identity
