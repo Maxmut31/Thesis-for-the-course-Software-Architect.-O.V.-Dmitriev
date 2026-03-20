@@ -19,6 +19,7 @@
 
 ### Схема взаимодействия компонентов
 
+
 ```mermaid
 flowchart TD
     Client --> Gateway
@@ -30,6 +31,7 @@ flowchart TD
     Gateway --> Notification
     Gateway --> Promo
     Gateway --> Integration
+
 ```mermaid
 
 ### Основные компоненты
