@@ -20,3 +20,4 @@
 11. [ADR](docs/11-adr.md)
 12. [Сценарии использования](docs/12-use-cases.md)
 13. [Базовая архитектура](docs/13-base-architecture.md)
+14. [Архитектурные представления](docs/14-architecture-views.md)
