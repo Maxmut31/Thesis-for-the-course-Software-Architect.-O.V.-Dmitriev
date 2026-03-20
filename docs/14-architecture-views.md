@@ -19,9 +19,8 @@
 
 ### Схема взаимодействия компонентов
 
-```markdown
 ```mermaid
-flowchart LR
+flowchart TD
     Client --> Gateway
     Gateway --> Identity
     Gateway --> Workout
