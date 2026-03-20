@@ -30,7 +30,8 @@ flowchart TD
     Gateway --> Notification
     Gateway --> Promo
     Gateway --> Integration
-
+```mermaid
+ ```
 ---
 
 ### Основные компоненты
