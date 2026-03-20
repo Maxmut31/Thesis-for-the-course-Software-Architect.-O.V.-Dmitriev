@@ -125,12 +125,13 @@ flowchart TD
 - масштабируемость по регионам
 - использование CDN (опционально)
 
+```mermaid
 flowchart TD
     Client --> CDN
     CDN --> Gateway
     Gateway --> Services
     Services --> DB
-
+```
 ---
 
 ## 14.5 Представление безопасности
