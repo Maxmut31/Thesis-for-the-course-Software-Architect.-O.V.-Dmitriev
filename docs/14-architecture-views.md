@@ -19,6 +19,7 @@
 
 ### Схема взаимодействия компонентов
 
+```mermaid
 flowchart TD
     Client --> Gateway
     Gateway --> Identity
