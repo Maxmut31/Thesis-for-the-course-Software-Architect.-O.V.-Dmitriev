@@ -21,3 +21,5 @@
 12. [Сценарии использования](docs/12-use-cases.md)
 13. [Базовая архитектура](docs/13-base-architecture.md)
 14. [Архитектурные представления](docs/14-architecture-views.md)
+15. [Анализ рисков архитектуры и компромиссов](docs/15-architecture-risks.md)
+16. [Стоимость владения системой](docs/16-cost-of-ownership.md)
